@@ -4,18 +4,13 @@
 @font-face {
     font-family: "bukra";
     src:
-      url("../fonts/29ltbukrabold.otf") format("opentype"),
-      url("../fonts/29ltbukrabolditalic.otf") format("opentype"),
-      url("../fonts/29ltbukralight.otf") format("opentype"),
-      url("../fonts/29ltbukraregular.otf") format("opentype"),
-      url("../fonts/29ltbukrabold.otf") format("truetype");
+      url("../fonts/29ltbukralight.otf");
   }
   
 body {
     color: #666666;
     background: #dddddd;
     font-family: 'bukra', sans-serif;
-    font-weight: 400;
 }
 
 h1,
@@ -508,20 +503,17 @@ a:focus {
 .feature {
     position: relative;
     margin-bottom: 45px;
+    margin-top: 100px;
 }
 
 .feature .col-md-12 {
     background: #192761;
 }
     
-.feature .col-md-12:nth-child(2n) {
-    color: #192761;
-    background: #fff;
-}
-
 .feature .feature-item {
     min-height: 250px;
-    padding: 30px;
+    height: 350px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -590,11 +582,6 @@ a:focus {
     font-weight: 400;
 }
 
-.feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
-.feature .col-md-12:nth-child(2n) h3,
-.feature .col-md-12:nth-child(2n) p {
-    color: #192761;
-}
 
 
 /*******************************/

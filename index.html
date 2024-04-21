@@ -2,7 +2,7 @@
 <html lang="en" dir="rtl">
   <head>
     <meta charset="utf-8" />
-    <title>Emaar Uniten Engineering</title>
+    <title>Emaar United Engineering</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="شركة اعمار الهندسية" name="keywords" />
     <meta
@@ -51,7 +51,7 @@
                 <div class="col-4">
                   <div class="top-bar-item">
                     <div class="top-bar-icon">
-                      <i class="flaticon-calendar"></i>
+                      <img src="/img/icons/watch.png" alt="workhours" width="40">
                     </div>
                     <div class="top-bar-text">
                       <h3>ساعات العمل</h3>
@@ -62,7 +62,7 @@
                 <div class="col-4">
                   <div class="top-bar-item">
                     <div class="top-bar-icon">
-                      <i class="flaticon-call"></i>
+                     <img src="/img/icons/service.png" alt="call" width="40">
                     </div>
                     <div class="top-bar-text">
                       <h3>أسئلة؟</h3>
@@ -99,10 +99,10 @@
                 <a href="index.html" class="nav-item nav-link active"
                   >الصفحة الرئيسية</a
                 >
-                <a href="" class="nav-item nav-link">نبذة عنا</a>
-                <a href="" class="nav-item nav-link">خدماتنا</a>
+                <a href="#aboutus" class="nav-item nav-link">نبذة عنا</a>
+                <a href="#our services" class="nav-item nav-link">خدماتنا</a>
 
-                <a href="" class="nav-item nav-link">مشاريعنا</a>
+                <a href="#our_clients" class="nav-item nav-link">عملاؤنــــــا</a>
 
                 <a href="" class="nav-item nav-link">تواصل معنا</a>
               </div>
@@ -120,15 +120,15 @@
           <li data-target="#carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src="img/topheaderbg.png" alt="Carousel Image" />
             <div class="carousel-caption">
-              <h1 class="animated fadeInRight">مرحبا بكم في شركة</h1>
-              <h1 class="animated fadeInLeft">إعمار الهندسية المتحدة</h1>
+              <h1 class="animated fadeInLeft">مرحبا بكم في شركة</h1>
+              <h1 class="animated fadeInRight">إعمار الهندسية المتحدة</h1>
             </div>
           </div>
 
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img src="img/topheaderbg.png" alt="Carousel Image" />
             <div class="carousel-caption">
               <h1 class="animated fadeInRight">رؤيـــــة جـــــديــــدة</h1>
@@ -159,68 +159,107 @@
       <!-- Carousel End -->
 
       <style>
-        .about-comp {
+        .about_company {
           display: flex;
           align-items: center;
           gap: 20px;
         }
+
+        .vision {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
+
+        .message {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
+
+        .about_company h3,
+        .about_company p {
+          color: #fff;
+          text-align: right;
+        }
+
+        .vision h3,
+        .vision p {
+          color: #fff;
+          text-align: right;
+        }
+
+        .message,
+        .message h3 {
+          color: #fff;
+          text-align: right;
+        }
+
+        @media (max-width: 991px) {
+          .vision {
+            background-color: #0b7cc1;
+            padding: 0;
+            color: #fff;
+          }
+          .vision h3 {
+            color: #fff;
+          }
+        }
+        
       </style>
 
       <!-- Feature Start-->
-      <div class="feature wow fadeInUp" data-wow-delay="0.1s">
+      <div class="feature wow fadeInUp" data-wow-delay="0.1s" id="aboutus">
         <div class="container-fluid">
-          <div class="row align-items-center">
+          <div class="row align-items-center ">
             <div class="col-lg-4 col-md-12">
               <div class="feature-item">
-                <div class="feature-text about-comp">
-                  <img src="img/about-comp.png" />
+                <div class="feature-text about_company">
+                  <img width="50" src="img/about-comp.png" />
 
                   <div>
-                    <h3 style="text-align: right">عن الشركة</h3>
-                    <p style="text-align: right; font-size: 12px">
-                      باشـــــرت إعمــــــــار الهندسيــــة المتحــــــــــدة
-                      مشـــوارهـــا في عـــــــام 2016 فــــي مقرهــــــا
-                      الرئســـي فـــي سلطنـــــــــة عمـــــان (مسقط) حيث
-                      وتقـــــدم الشــــركة نفسها كمقــــاول بنـــــاء
-                      حقيقـــــــي وأســـــرع نمـو في السلطنة بدأنا في تــولي
-                      وظــائف صغيرة واليوم نعمـــل مـــع العديــد من مشــــاريع
-                      البنــــاء والتطـــــويــــر الكبيــــــرة علـــــى أرض
-                      السلطنــة حــــــن نؤمــن ب أكثر من 100% علــــى أســــاس
-                      سنوي منذو التأسيس هذة هـي بدايتنا الحقيقيـــــة
-                      التـــــــي نؤمــن بهـــــا نحن نستطيع وسنقدم رؤية جديدة
-                      بأساليب حديثة .
+                    <h3>عن إعمار</h3>
+                    <p style="text-align: justify; font-size: 14px">
+                      باشرت إعمار الهندسية المتحدة مشوارهـــا في عام 2016 في
+                      مقرها الرئيسي في سلطنة عمان (مسقط) حيث وتقدم الشركة نفسها
+                      كمقاول بناء حقيقي وأسرع نمـو في السلطنة بدأنا في تولي
+                      وظائف صغيرة واليوم نعمل مع العديد من مشاريع البناء
+                      والتطوير الكبيرة على أرض السلطنة نحن نؤمن ب أكثر من 100%
+                      على أساس سنوي منذو التأسيس هذة هـي بدايتنا الحقيقية التي
+                      نؤمن بها نحن نستطيع وسنقدم رؤية جديدة بأساليب حديثة .
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-md-12">
-              <div class="feature-item about-comp">
-                <img src="img/vison-comp.png" />
-                <div class="feature-text">
-                  <h3 style="text-align: right">الرؤية</h3>
-                  <p style="text-align: right">
-                    شــــركة اعمار الهندسية شركة رائدة في تقديم الخدمات الهندسية
-                    والمقــــاولات العامة لجميع المشاريــع في السلطنة في
-                    السلطنــة التــــي تسعــــى من خلالها التوســع فــي
-                    خدماتهــــا ونشاطاتهــــا لتغطـــــــــي في خدماتهــــــا
-                    كامـــل ارجاء السلطنة . ونتطلـــع الـــــــى التوسع في
-                    الاعمـــــال المستقبلية المتطــــــورة مع رؤية الـــــدولة
-                    2040 .
+              <div class="feature-item vision">
+                <img width="50" src="img/vison-comp.png" />
+
+                <div>
+                  <h3>الرؤية</h3>
+                  <p style="text-align: justify; font-size: 14px">
+                    شركة إعمار الهندسية شركة رائدة في تقديم الخدمات الهندسية
+                    والمقـاولات العامة لجميع المشاريـع في في السلطنــة التي
+                    تسعـى من خلالها التوسع فــي خدماتها ونشاطاتها لتغطـي كامـــل
+                    ارجاء السلطنة . ونتطلـع الـى الاعمـال المستقبلية المتطـورة
+                    مع رؤية الدولة 2040 .
                   </p>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-md-12">
-              <div class="feature-item">
-                <div class="feature-text">
-                  <h3 style="text-align: right">الرسالة</h3>
-                  <p style="text-align: right">
-                    رسالتنـا فـــي شـــركة اعمـــــــار الهندسية المتحــــــدة
-                    .تكمـــن في نشر ثقافة الجـــــودة بمفهومها الحقيقي في مجال
-                    الهندسة والمقــــــاولات العامة وتقديم اعلـــــى مستوى من
-                    المهنية والــــدقة وايجـــــاد حلـــــــــول مبتكــــرة
-                    لخـدمة المجتمــــع والانسانية
+              <div class="feature-item message">
+                <img width="50" src="img/message.png" />
+                <div>
+                  <h3>الرسالة</h3>
+                  <p style="text-align: justify; font-size: 14px">
+                    رسالتنـا في شركة إعمـار الهندسية المتحـدة .تكمن في نشر ثقافة
+                    الجـودة بمفهومها الحقيقي في مجال الهندسة والمقاولات العامة
+                    وتقديم أعلى مستوى من المهنية والدقة وايجاد حلـول مبتكرة
+                    لخدمة المجتمع والانسانية .
                   </p>
                 </div>
               </div>
@@ -240,7 +279,7 @@
               <img src="img/sign.png" alt="" />
             </div>
             <div class="col-lg-7 col-md-6">
-              <div style="text-align: right; font-size: 22px">
+              <div style="text-align: justify; font-size: 22px">
                 نحن نفخر بكوننا واحدة من شركات المقاولات الكبرى في سلطنة عمان
                 بعد أن حققت نمو ملحوظاً خلال الماضي وساهمت بشكل كبيرفي تنمية
                 عمان حققت الشركة مكانة بارزة كشركة رائدة في مجال البناء والهندسة
@@ -258,50 +297,50 @@
       </div>
       <!-- About End -->
 
+      <style>
+        .fact-col {
+          display: flex;
+          text-align: center;
+        }
+        @media (max-width: 767.98px) {
+          .fact-col {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+        }
+      </style>
       <!-- Fact Start -->
       <div class="fact">
         <div class="container-fluid">
           <div class="row counters">
-            <div class="col-md-6 fact-left wow slideInLeft">
+            <div class="col-md-12 fact-left wow slideInLeft">
               <div class="row">
-                <div class="col-6">
-                  <div class="fact-icon">
-                    <i class="flaticon-worker"></i>
-                  </div>
-                  <div class="fact-text">
-                    <h2 data-toggle="counter-up">109</h2>
-                    <p>Expert Workers</p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="fact-icon">
-                    <i class="flaticon-building"></i>
-                  </div>
-                  <div class="fact-text">
-                    <h2 data-toggle="counter-up">485</h2>
-                    <p>Happy Clients</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 fact-right wow slideInRight">
-              <div class="row">
-                <div class="col-6">
+                <div class="col-md-4 col-sm-12 fact-col">
                   <div class="fact-icon">
                     <i class="flaticon-address"></i>
                   </div>
                   <div class="fact-text">
-                    <h2 data-toggle="counter-up">789</h2>
+                    <h2 data-toggle="counter-up">20</h2>
                     <p>Completed Projects</p>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-4 col-sm-12 fact-col">
                   <div class="fact-icon">
-                    <i class="flaticon-crane"></i>
+                    <i class="flaticon-worker"></i>
                   </div>
                   <div class="fact-text">
-                    <h2 data-toggle="counter-up">890</h2>
-                    <p>Running Projects</p>
+                    <h2 data-toggle="counter-up">10</h2>
+                    <p>Expert Workers</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12 fact-col">
+                  <div class="fact-icon">
+                    <i class="flaticon-building"></i>
+                  </div>
+                  <div class="fact-text">
+                    <h2 data-toggle="counter-up">20</h2>
+                    <p>Happy Clients</p>
                   </div>
                 </div>
               </div>
@@ -315,13 +354,18 @@
       <div class="service">
         <div class="container">
           <div class="section-header text-center">
-            <h2>خدماتنــــا</h2>
+            <h2 id="our services">خدماتنــــا</h2>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/const.png" alt="Image" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/const.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>تشييدـ المبــانيي التعاقدية</div>
@@ -331,7 +375,12 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/indst.png" alt="Image" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/indst.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>تشييدـ المبــانيي الصناعية</div>
@@ -342,7 +391,12 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/state.png" alt="Image" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/state.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>بناء المنازل السكنية</div>
@@ -353,7 +407,12 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/cancrete.png" alt="Image" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/cancrete.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>الارضيات الخرسانية</div>
@@ -364,7 +423,12 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/cement.png" alt="Image" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/cement.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>الارضيات الإسمنتية</div>
@@ -375,7 +439,12 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="service-item">
                 <div class="service-img">
-                  <img src="img/factory.png" alt="Image" style="height: 322px;" />
+                  <img
+                    width="290"
+                    height="300"
+                    src="img/service/factory.png"
+                    alt="Image"
+                  />
                 </div>
                 <div class="service-text text-white p-3">
                   <div>الارضيات الصناعية</div>
@@ -387,7 +456,7 @@
       </div>
       <!-- Service End -->
 
-      <h1 class="p-5 text-center">عملاؤنــــــا</h1>
+      <h1 id="our_clients" class="p-5 text-center">عملاؤنــــــا</h1>
 
       <div class="container">
         <div class="row">
