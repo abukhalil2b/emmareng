@@ -82,7 +82,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 90px;
+    height: 120px;
     background: #fff;
 }
 
@@ -316,7 +316,7 @@ a:focus {
 
 .carousel .carousel-caption h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 35px;
 }
@@ -486,7 +486,7 @@ a:focus {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
