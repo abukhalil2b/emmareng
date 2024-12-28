@@ -83,7 +83,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 156px;
+    height: 110px;
     background: #fff;
 }
 
@@ -504,7 +504,6 @@ a:focus {
 .feature {
     position: relative;
     margin-bottom: 45px;
-    margin-top: 100px;
 }
 
 .feature .col-md-12 {
