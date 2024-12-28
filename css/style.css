@@ -22,6 +22,7 @@ h6 {
     color: #192761;
 }
 
+
 a {
     color: #666666;
     transition: .3s;
@@ -82,7 +83,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 120px;
+    height: 156px;
     background: #fff;
 }
 
@@ -316,7 +317,7 @@ a:focus {
 
 .carousel .carousel-caption h1 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 35px;
 }
@@ -2053,7 +2054,6 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
     padding-top: 90px;
     background: #192761;
     color: #ffffff;
