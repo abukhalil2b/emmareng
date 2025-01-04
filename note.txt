@@ -1,42 +1,10 @@
-      <h1 id="our_clients" class="p-5 text-center">عملاؤنــــــا</h1>
+ أن نكــون الشركة الرائدة في تقديم
+                    حلـــول هندسيــة معمارية مبتكـــــرة
+                     ونسعـــى إلــى تحقيق الريـــادة فـي
+                    قطــــاع النفط والغــاز و الطاقـة، مع
+                     التركيـــز على الاستدامـــة ,مما يعزز
+                    من دعم الاقتصاد الوطني والعالمي
+                    ويــوفــــر حلول طاقيـــة مستــــدامة
+                     للأجيال القادمة
 
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/1.png" alt="" width="155" />
-          </div>
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/2.png" alt="" width="155" />
-          </div>
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/3.png" alt="" width="155" />
-          </div>
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/4.png" alt="" width="155" />
-          </div>
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/5.png" alt="" width="155" />
-          </div>
-          <div
-            class="col-lg-4 col-md-6 wow fadeInUp text-center"
-            data-wow-delay="0.1s"
-          >
-            <img src="img/clients_logo/6.png" alt="" width="155" />
-          </div>
-        </div>
-      </div>
+
