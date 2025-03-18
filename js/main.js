@@ -1,6 +1,11 @@
 (function ($) {
     "use strict";
     
+    //navigation menu collapses after clicking a link
+    $('.navbar-collapse a').click(function () {
+        $('.navbar-collapse').collapse('hide');
+      });
+      
     // Initiate the wowjs
     new WOW().init();
     
